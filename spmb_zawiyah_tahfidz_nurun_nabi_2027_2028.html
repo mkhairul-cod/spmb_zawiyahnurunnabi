@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#065f46">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>SPMB TA 2027/2028 | Zawiyah Tahfidz Nurun Nabi Banda Aceh</title>
+
+    <!-- Favicon Inline SVG Logo Kubah Masjid Hijau & Emas -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23064e3b'/%3E%3Cpath d='M32 8c-1.5 3.5-4 5.5-4 8.5 0 2 1.5 3.5 4 3.5s4-1.5 4-3.5c0-3-2.5-5-4-8.5z' fill='%23fbbf24'/%3E%3Cpath d='M14 44h36v8H14z' fill='%23fbbf24'/%3E%3Cpath d='M16 42c0-11 7-18 16-22 9 4 16 11 16 22H16z' fill='%2310b981' stroke='%23fbbf24' stroke-width='2'/%3E%3Cpath d='M26 42v-7a6 6 0 0 1 12 0v7H26z' fill='%23064e3b'/%3E%3C/svg%3E">
+
+    <!-- Open Graph / WhatsApp / Social Media Share Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Zawiyah Tahfidz Nurun Nabi Banda Aceh">
+    <meta property="og:title" content="SPMB TA 2027/2028 - Zawiyah Tahfidz Nurun Nabi Banda Aceh">
+    <meta property="og:description" content="Pendaftaran Murid Baru TK, SD & SMP (Fullday & Asrama). Membentuk generasi penghafal Al-Qur'an sejak usia dini yang cerdas, berakhlak mulia, dan berprestasi. Jadwal: 12 Nov 2026 - 12 Jan 2027.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SPMB TA 2027/2028 - Zawiyah Tahfidz Nurun Nabi Banda Aceh">
+    <meta name="twitter:description" content="Penerimaan Murid Baru TK, SD & SMP (Fullday & Asrama). Daftar online sekarang!">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+                        arabic: ['"Amiri"', 'serif'],
+                    },
+                    colors: {
+                        emerald: {
+                            850: '#064e3b',
+                            900: '#043927',
+                            950: '#022c22',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Optimasi Safe Area Android & iOS iPhone */
+        body {
+            padding-top: env(safe-area-inset-top);
+            padding-bottom: env(safe-area-inset-bottom);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* Pola Islami Halus */
+        .islamic-hero-bg {
+            background-color: #043927;
+            background-image:
+                radial-gradient(circle at 85% 15%, rgba(251, 191, 36, 0.16) 0%, transparent 45%),
+                radial-gradient(circle at 10% 85%, rgba(16, 185, 129, 0.18) 0%, transparent 45%),
+                radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 28px 28px;
+        }
+
+        /* Hide Scrollbar untuk Horizontal Swipe Mobile */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased overflow-x-hidden">
+
+    <!-- ==================== COMPACT STICKY HEADER ==================== -->
+    <header class="sticky top-0 z-50 bg-emerald-950/95 backdrop-blur-md border-b border-emerald-800/70">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-3">
+            <!-- Brand -->
+            <a href="#" class="flex items-center gap-2.5 min-w-0">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 to-amber-500 flex items-center justify-center text-emerald-950 shrink-0 shadow">
+                    <i class="fa-solid fa-mosque text-base"></i>
+                </div>
+                <div class="truncate">
+                    <span class="block text-white font-extrabold text-sm sm:text-base leading-tight truncate">Zawiyah Tahfidz Nurun Nabi</span>
+                    <span class="block text-amber-300 text-[11px] font-medium truncate">SPMB TA 2027/2028 &bull; Banda Aceh</span>
+                </div>
+            </a>
+
+            <!-- Desktop Quick Nav -->
+            <nav class="hidden md:flex items-center gap-5 text-xs font-semibold text-emerald-100">
+                <a href="#berita" class="hover:text-amber-300 transition-colors">Berita</a>
+                <a href="#galeri" class="hover:text-amber-300 transition-colors">Santri & Program</a>
+                <a href="#profil-tab" class="hover:text-amber-300 transition-colors">Profil & Prestasi</a>
+                <a href="#biaya" class="hover:text-amber-300 transition-colors">Biaya</a>
+            </nav>
+
+            <!-- Action Buttons (Share + Daftar) -->
+            <div class="flex items-center gap-2 shrink-0">
+                <button onclick="shareLandingPage()" aria-label="Bagikan Info SPMB" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-amber-300 text-xs font-bold border border-white/15 transition-all active:scale-95">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <span class="hidden sm:inline">Bagikan</span>
+                </button>
+                <a href="#daftar" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-amber-400 hover:bg-amber-300 text-emerald-950 text-xs font-extrabold shadow transition-all active:scale-95">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <span>Daftar</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Toast Notifikasi Share -->
+    <div id="share-toast" class="fixed top-20 left-1/2 -translate-x-1/2 z-50 hidden bg-emerald-950 text-white border border-amber-400 px-4 py-2.5 rounded-full shadow-2xl text-xs font-bold flex items-center gap-2">
+        <i class="fa-solid fa-circle-check text-amber-400"></i>
+        <span id="share-toast-text">Link SPMB berhasil disalin!</span>
+    </div>
+
+    <!-- ==================== HERO SECTION (PADAT, VISUAL & MOBILE-FIRST) ==================== -->
+    <section class="islamic-hero-bg text-white py-8 sm:py-12 lg:py-14">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid lg:grid-cols-12 gap-7 lg:gap-8 items-center">
+                
+                <!-- Kolom Kiri: Headline & Info Inti -->
+                <div class="lg:col-span-6 text-center lg:text-left">
+                    <p class="font-arabic text-xl sm:text-2xl text-amber-300 mb-1.5">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</p>
+
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-900/90 border border-amber-400/40 text-amber-300 text-[11px] sm:text-xs font-bold mb-3">
+                        <i class="fa-solid fa-star-and-crescent"></i>
+                        <span>SPMB TA 2027/2028 | TK - SD - SMP (Fullday & Asrama)</span>
+                    </div>
+
+                    <h1 class="text-2xl sm:text-4xl lg:text-[42px] font-extrabold leading-tight tracking-tight mb-2.5">
+                        Cetak Generasi <span class="text-amber-400">Penghafal Al-Qur'an</span> Sejak Usia Dini
+                    </h1>
+
+                    <p class="text-emerald-100/90 text-xs sm:text-sm lg:text-base leading-relaxed mb-4 max-w-xl mx-auto lg:mx-0">
+                        Perpaduan Kurikulum Pesantren Tahfidz & Kemendikbud di bawah naungan <strong>Yayasan Nurun Nabi Aceh</strong> (Sejak 2018).
+                    </p>
+
+                    <!-- Jadwal Pendaftaran Compact Pill -->
+                    <div class="bg-white/10 backdrop-blur-sm border border-amber-400/30 rounded-2xl p-3 sm:p-3.5 mb-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-left">
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-9 h-9 rounded-xl bg-amber-400 text-emerald-950 flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-calendar-check text-base"></i>
+                            </div>
+                            <div>
+                                <span class="block text-[10px] uppercase tracking-wider text-amber-300 font-bold">Jadwal Pengambilan & Pengembalian Formulir</span>
+                                <span class="block text-xs sm:text-sm font-extrabold text-white">12 November 2026 s/d 12 Januari 2027</span>
+                            </div>
+                        </div>
+                        <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-emerald-950/80 text-emerald-200 border border-emerald-700 shrink-0">
+                            Banda Aceh
+                        </span>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="grid grid-cols-2 sm:flex sm:flex-wrap items-center justify-center lg:justify-start gap-2.5 sm:gap-3">
+                        <a href="#daftar" class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-emerald-950 font-extrabold text-xs sm:text-sm px-4 sm:px-6 py-3.5 rounded-xl shadow-lg transition-all active:scale-95">
+                            <i class="fa-solid fa-file-signature"></i>
+                            <span>Daftar Online</span>
+                        </a>
+                        <a href="https://wa.me/6282274286622?text=Assalamu'alaikum%20Ust%20Marjan,%20saya%20ingin%20bertanya%20tentang%20SPMB%20Zawiyah%20Tahfidz%20Nurun%20Nabi%202027/2028." target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-emerald-800/90 hover:bg-emerald-700 border border-emerald-500/50 text-white font-bold text-xs sm:text-sm px-4 sm:px-6 py-3.5 rounded-xl transition-all active:scale-95">
+                            <i class="fa-brands fa-whatsapp text-base text-green-400"></i>
+                            <span>Hubungi Admin</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Kolom Kanan: Kolase Visual Santri & Anak-Anak Menghafal Al-Qur'an -->
+                <div class="lg:col-span-6">
+                    <div class="grid grid-cols-12 gap-2.5 sm:gap-3">
+                        <!-- Foto Utama Kiri (Santri Mengaji Al-Qur'an) -->
+                        <div class="col-span-7 relative rounded-2xl overflow-hidden border-2 border-amber-400/50 shadow-xl aspect-[4/3] bg-emerald-900">
+                            <img src="https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=800&q=80"
+                                 onerror="this.src='https://placehold.co/600x450/064e3b/fbbf24?text=Halaqah+Tahfidz+Al-Quran'"
+                                 alt="Santri Menghafal Al-Qur'an Zawiyah Tahfidz Nurun Nabi"
+                                 class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-emerald-950/90 via-transparent to-transparent"></div>
+                            <div class="absolute bottom-2.5 left-3 right-3">
+                                <span class="inline-block px-2 py-0.5 rounded bg-amber-400 text-emerald-950 text-[10px] font-extrabold uppercase mb-1">Program Tahfidz</span>
+                                <p class="text-white font-bold text-xs sm:text-sm leading-tight">Halaqah Hafalan Al-Qur'an Sejak Usia Dini</p>
+                            </div>
+                        </div>
+
+                        <!-- Kolom Kanan Kolase (2 Foto Bertumpuk) -->
+                        <div class="col-span-5 flex flex-col gap-2.5 sm:gap-3">
+                            <div class="relative rounded-2xl overflow-hidden border border-white/20 shadow-lg flex-1 bg-emerald-900">
+                                <img src="https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=600&q=80"
+                                     onerror="this.src='https://placehold.co/400x220/043927/ffffff?text=Tartil+Imam+Haramain'"
+                                     alt="Belajar Tajwid dan Murattal Al-Qur'an"
+                                     class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-emerald-950/85 via-transparent to-transparent"></div>
+                                <p class="absolute bottom-2 left-2.5 right-2 text-white font-bold text-[11px] leading-tight">Tahsin & Tartil Imam Haramain</p>
+                            </div>
+
+                            <div class="relative rounded-2xl overflow-hidden border border-amber-400/40 shadow-lg flex-1 bg-emerald-900">
+                                <img src="https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=600&q=80"
+                                     onerror="this.src='https://placehold.co/400x220/065f46/fbbf24?text=Reward+Umrah+Santri'"
+                                     alt="Apresiasi Reward Umrah Siswa Tahfidz"
+                                     class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-emerald-950/90 via-transparent to-transparent"></div>
+                                <p class="absolute bottom-2 left-2.5 right-2 text-amber-300 font-bold text-[11px] leading-tight">
+                                    <i class="fa-solid fa-kaaba mr-1"></i> Apresiasi Umrah Santri Berprestasi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 1: BERITA & APRESIASI TERBARU ==================== -->
+    <section id="berita" class="py-10 sm:py-14 bg-white border-b border-slate-200/80">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex items-end justify-between mb-6">
+                <div>
+                    <span class="text-amber-600 font-extrabold text-[11px] uppercase tracking-widest">Kabar & Prestasi Terkini</span>
+                    <h2 class="text-xl sm:text-2xl font-extrabold text-emerald-950">Berita & Apresiasi Terbaru</h2>
+                </div>
+                <span class="text-xs text-slate-400 sm:hidden"><i class="fa-solid fa-arrows-left-right mr-1"></i>Geser</span>
+            </div>
+
+            <!-- Horizontal Scroll di Mobile, Grid 3 Kolom di Desktop -->
+            <div class="flex md:grid md:grid-cols-3 gap-4 overflow-x-auto no-scrollbar snap-x snap-mandatory pb-2">
+                
+                <!-- Berita Utama (Sesuai Referensi Hasanusi Muhammad) -->
+                <article class="min-w-[85%] sm:min-w-[60%] md:min-w-0 snap-start bg-emerald-950 text-white rounded-2xl overflow-hidden shadow-lg border-2 border-amber-400/70 flex flex-col">
+                    <div class="relative h-44 bg-emerald-900">
+                        <img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=800&q=80"
+                             onerror="this.src='https://placehold.co/600x340/064e3b/fbbf24?text=Keberangkatan+Umrah+Siswa+SDTQ'"
+                             alt="SDTQ Nurun Nabi Kembali Memberangkatkan Siswa Umrah"
+                             class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-amber-400 text-emerald-950 text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full shadow">
+                            <i class="fa-solid fa-fire mr-1"></i> Berita Utama
+                        </span>
+                    </div>
+                    <div class="p-4 sm:p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] text-amber-300 font-semibold block mb-1">November 2026 &bull; hasanusimuhammad.com</span>
+                            <h3 class="font-extrabold text-base sm:text-lg leading-snug mb-2 text-white">
+                                MANTAP! SDTQ Nurun Nabi Kembali Memberangkatkan Siswa Umrah
+                            </h3>
+                            <p class="text-xs text-emerald-100/85 leading-relaxed mb-4">
+                                Sekolah Dasar Tahfidz Qur'an (SDTQ) Nurun Nabi Banda Aceh kembali membuktikan komitmen dan konsistensinya dalam mengapresiasi para siswa-siswi yang berhasil mencapai target hafalan Al-Qur'an.
+                            </p>
+                        </div>
+                        <a href="https://www.hasanusimuhammad.com/2026/11/sdtq-nurun-nabi-kembali-berangkatkan-siswa-umrah.html" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-amber-400 hover:bg-amber-300 text-emerald-950 font-extrabold text-xs transition-colors">
+                            <span>Baca Selengkapnya</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Berita 2: Wisuda Tahfidzul Qur'an -->
+                <article class="min-w-[85%] sm:min-w-[60%] md:min-w-0 snap-start bg-slate-50 rounded-2xl overflow-hidden shadow-sm border border-slate-200 flex flex-col">
+                    <div class="relative h-44 bg-emerald-900">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80"
+                             onerror="this.src='https://placehold.co/600x340/043927/ffffff?text=Wisuda+Tahfidzul+Quran'"
+                             alt="Wisuda Tahfidzul Qur'an SDTQ & SMPTQ Nurun Nabi"
+                             class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-emerald-900 text-amber-300 text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">
+                            Wisuda Akbar
+                        </span>
+                    </div>
+                    <div class="p-4 sm:p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] text-slate-500 font-semibold block mb-1">Dokumentasi Lembaga</span>
+                            <h3 class="font-extrabold text-base text-emerald-950 leading-snug mb-2">
+                                Wisuda Tahfidzul Qur'an SDTQ Angkatan Ke-2 & SMPTQ Angkatan Ke-1
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                Prosesi Tasmi' dan Syahadah wisudawan/wati Nurun Nabi binaan Sahabat Ummi serta penganugerahan hadiah Umrah bagi murid berprestasi.
+                            </p>
+                        </div>
+                        <a href="#galeri" class="inline-flex items-center justify-center gap-1.5 w-full py-2.5 px-4 rounded-xl bg-emerald-900 hover:bg-emerald-800 text-white font-bold text-xs transition-colors">
+                            <span>Lihat Program Tahfidz</span>
+                            <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Berita 3: Majelis Shalawat & Subhah -->
+                <article class="min-w-[85%] sm:min-w-[60%] md:min-w-0 snap-start bg-slate-50 rounded-2xl overflow-hidden shadow-sm border border-slate-200 flex flex-col">
+                    <div class="relative h-44 bg-emerald-900">
+                        <img src="https://images.unsplash.com/photo-1542816417-0983c9c9ad53?auto=format&fit=crop&w=800&q=80"
+                             onerror="this.src='https://placehold.co/600x340/065f46/fbbf24?text=Majelis+Shalawat+Nurun+Nabi'"
+                             alt="Majelis Shalawat & Subhah Zawiyah Nurun Nabi"
+                             class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-emerald-900 text-amber-300 text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">
+                            Pembinaan Ruhiyah
+                        </span>
+                    </div>
+                    <div class="p-4 sm:p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] text-slate-500 font-semibold block mb-1">Zawiyah Nurun Nabi Aceh</span>
+                            <h3 class="font-extrabold text-base text-emerald-950 leading-snug mb-2">
+                                Majelis Shalawat & Subhah Pembinaan Karakter Qur'ani Santri
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                Mengoptimalkan kecerdasan spiritual, emosional, dan intelektual santri melalui amalan zikir, fikir, serta penanaman nilai-nilai Asmaul Husna.
+                            </p>
+                        </div>
+                        <a href="#profil-tab" class="inline-flex items-center justify-center gap-1.5 w-full py-2.5 px-4 rounded-xl bg-emerald-900 hover:bg-emerald-800 text-white font-bold text-xs transition-colors">
+                            <span>Pelajari Profil Lembaga</span>
+                            <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 2: GALERI SANTRI HAFAL QUR'AN, PROGRAM & EKSKUL ==================== -->
+    <section id="galeri" class="py-10 sm:py-14 bg-slate-50 border-b border-slate-200/80">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 mb-6">
+                <div>
+                    <span class="text-amber-600 font-extrabold text-[11px] uppercase tracking-widest">Aktivitas Harian Santri</span>
+                    <h2 class="text-xl sm:text-2xl font-extrabold text-emerald-950">Galeri Santri & Program Unggulan</h2>
+                </div>
+                <span class="text-xs text-slate-500">7 Program Unggulan & 8 Ekstrakurikuler</span>
+            </div>
+
+            <!-- Horizontal Photo Cards: Aktivitas Anak Menghafal Al-Qur'an -->
+            <div class="flex lg:grid lg:grid-cols-4 gap-3.5 overflow-x-auto no-scrollbar snap-x snap-mandatory mb-6 pb-1">
+                <div class="min-w-[70%] sm:min-w-[42%] lg:min-w-0 snap-start relative rounded-2xl overflow-hidden aspect-[4/3] shadow-sm group">
+                    <img src="https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=600&q=80"
+                         onerror="this.src='https://placehold.co/400x300/064e3b/ffffff?text=Tahfidz+Al-Quran'"
+                         alt="Tahfidz Al-Qur'an" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-950/90 via-emerald-950/20 to-transparent"></div>
+                    <div class="absolute bottom-3 left-3 right-3 text-white">
+                        <span class="text-[10px] font-bold text-amber-300 uppercase">Unggulan 01</span>
+                        <h3 class="font-extrabold text-sm">Tahfidz Al-Qur'an</h3>
+                    </div>
+                </div>
+
+                <div class="min-w-[70%] sm:min-w-[42%] lg:min-w-0 snap-start relative rounded-2xl overflow-hidden aspect-[4/3] shadow-sm group">
+                    <img src="https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=600&q=80"
+                         onerror="this.src='https://placehold.co/400x300/043927/ffffff?text=Tahsin+dan+Tajwid'"
+                         alt="Tahsin dan Tajwid" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-950/90 via-emerald-950/20 to-transparent"></div>
+                    <div class="absolute bottom-3 left-3 right-3 text-white">
+                        <span class="text-[10px] font-bold text-amber-300 uppercase">Unggulan 02</span>
+                        <h3 class="font-extrabold text-sm">Tahsin & Tajwid</h3>
+                    </div>
+                </div>
+
+                <div class="min-w-[70%] sm:min-w-[42%] lg:min-w-0 snap-start relative rounded-2xl overflow-hidden aspect-[4/3] shadow-sm group">
+                    <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149?auto=format&fit=crop&w=600&q=80"
+                         onerror="this.src='https://placehold.co/400x300/065f46/ffffff?text=Murattal+Imam+Haramain'"
+                         alt="Murattal Imam Haramain" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-950/90 via-emerald-950/20 to-transparent"></div>
+                    <div class="absolute bottom-3 left-3 right-3 text-white">
+                        <span class="text-[10px] font-bold text-amber-300 uppercase">Unggulan 03</span>
+                        <h3 class="font-extrabold text-sm">Murattal Imam Haramain</h3>
+                    </div>
+                </div>
+
+                <div class="min-w-[70%] sm:min-w-[42%] lg:min-w-0 snap-start relative rounded-2xl overflow-hidden aspect-[4/3] shadow-sm group">
+                    <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=600&q=80"
+                         onerror="this.src='https://placehold.co/400x300/022c22/fbbf24?text=Tasmi+dan+Syahadah'"
+                         alt="Tasmi' dan Syahadah" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-950/90 via-emerald-950/20 to-transparent"></div>
+                    <div class="absolute bottom-3 left-3 right-3 text-white">
+                        <span class="text-[10px] font-bold text-amber-300 uppercase">Unggulan 04</span>
+                        <h3 class="font-extrabold text-sm">Tasmi' & Syahadah</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compact Badges: Program Lanjutan & 8 Ekstrakurikuler -->
+            <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm space-y-4">
+                <div>
+                    <span class="text-[11px] font-extrabold uppercase tracking-wider text-emerald-900 block mb-2">
+                        <i class="fa-solid fa-star text-amber-500 mr-1"></i> Program Unggulan Lainnya:
+                    </span>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-bold"><i class="fa-solid fa-tree text-emerald-700 mr-1.5"></i>Tadabbur Alam</span>
+                        <span class="px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-bold"><i class="fa-solid fa-kaaba text-emerald-700 mr-1.5"></i>Wisata Islami</span>
+                        <span class="px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-bold"><i class="fa-solid fa-moon text-emerald-700 mr-1.5"></i>Mabit (Malam Bina Iman & Taqwa)</span>
+                    </div>
+                </div>
+
+                <div class="pt-3 border-t border-slate-100">
+                    <span class="text-[11px] font-extrabold uppercase tracking-wider text-emerald-900 block mb-2">
+                        <i class="fa-solid fa-medal text-amber-500 mr-1"></i> 8 Ekstrakurikuler Pengembangan Bakat:
+                    </span>
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs font-semibold text-slate-700">
+                        <div class="px-3 py-2 rounded-xl bg-slate-50 border border-slate-200/80"><i class="fa-solid fa-hand-fist text-amber-600 mr-1.5"></i>Pencak Silat</div>
+                        <div class="px-3 py-2 rounded-xl bg-slate-50 border border-slate-200/80"><i class="fa-solid fa-atom text-amber-600 mr-1.5"></i>Pembinaan OSN</div>
+                        <div class="px-3 py-2 rounded-xl bg-slate-50 border border-slate-200/80"><i class="fa-solid fa-futbol text-amber-600 mr-1.5"></i>Club Sepak Bola</div>
+                        <div class="px-3 py-2 rounded-xl bg-slate-50 border border-slate-200/80"><i class="fa-solid fa-shuttlecock text-amber-600 mr-1.5"></i>Club Badminton</div>
+                        <div class="px-3 py-2 rounded-xl bg-slate-50 border border-slate-200/80"><i class="fa-solid fa-campground text-amber-600 mr-1.5"></i>Pramuka</div>
+                        <div class="px-3 py-2 rounded-xl bg-slate-50 border border-slate-200/80"><i class="fa-solid fa-book-open text-amber-600 mr-1.5"></i>Tilawatil Qur'an</div>
+                        <div class="px-3 py-2 rounded-xl bg-slate-50 border border-slate-200/80"><i class="fa-solid fa-language text-amber-600 mr-1.5"></i>Club Bahasa Inggris</div>
+                        <div class="px-3 py-2 rounded-xl bg-slate-50 border border-slate-200/80"><i class="fa-solid fa-bullseye text-amber-600 mr-1.5"></i>Memanah</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 3: PROFIL, PIMPINAN & PRESTASI (COMPACT TABBED UI) ==================== -->
+    <section id="profil-tab" class="py-10 sm:py-14 bg-white border-b border-slate-200/80">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-6">
+                <span class="text-amber-600 font-extrabold text-[11px] uppercase tracking-widest">Mengenal Lebih Dekat</span>
+                <h2 class="text-xl sm:text-2xl font-extrabold text-emerald-950">Profil, Pimpinan & Prestasi</h2>
+            </div>
+
+            <!-- 3 Tab Navigasi Utama -->
+            <div class="grid grid-cols-3 gap-2 p-1.5 bg-slate-100 rounded-2xl max-w-xl mx-auto mb-6">
+                <button onclick="switchInfoTab('visi')" id="info-btn-visi" class="info-tab-btn py-2.5 px-2 rounded-xl text-xs sm:text-sm font-extrabold bg-emerald-900 text-white shadow transition-all">
+                    Visi & Fasilitas
+                </button>
+                <button onclick="switchInfoTab('pimpinan')" id="info-btn-pimpinan" class="info-tab-btn py-2.5 px-2 rounded-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-emerald-950 transition-all">
+                    Pimpinan
+                </button>
+                <button onclick="switchInfoTab('prestasi')" id="info-btn-prestasi" class="info-tab-btn py-2.5 px-2 rounded-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-emerald-950 transition-all">
+                    12 Prestasi
+                </button>
+            </div>
+
+            <!-- TAB 1: VISI, MISI & FASILITAS -->
+            <div id="info-panel-visi" class="info-panel space-y-5">
+                <div class="grid md:grid-cols-12 gap-5">
+                    <!-- Visi & Profil Singkat -->
+                    <div class="md:col-span-5 bg-emerald-950 text-white rounded-2xl p-5 sm:p-6 flex flex-col justify-between">
+                        <div>
+                            <span class="inline-block px-2.5 py-0.5 rounded bg-amber-400/20 text-amber-300 text-[11px] font-bold uppercase mb-2">Visi Lembaga</span>
+                            <p class="text-sm sm:text-base italic font-medium leading-relaxed text-emerald-50 border-l-2 border-amber-400 pl-3 mb-4">
+                                "Menjadi Sekolah Tahfiz Al-Quran unggulan yang berkualitas dengan metode terbaik demi terwujudnya generasi Ulul Albab dalam rangka berkontribusi untuk kemaslahatan umat."
+                            </p>
+                        </div>
+                        <p class="text-xs text-emerald-200/80 leading-relaxed">
+                            Berdiri sejak 2018 di bawah Yayasan Nurun Nabi Aceh untuk tingkat TK, SD, dan SMP.
+                        </p>
+                    </div>
+
+                    <!-- 5 Misi Ringkas -->
+                    <div class="md:col-span-7 bg-slate-50 rounded-2xl p-5 sm:p-6 border border-slate-200">
+                        <h3 class="font-extrabold text-sm uppercase tracking-wider text-emerald-950 mb-3">5 Misi Utama Pendidikan</h3>
+                        <ol class="space-y-2 text-xs sm:text-sm text-slate-700">
+                            <li class="flex gap-2.5"><span class="font-extrabold text-emerald-800">1.</span><span>Mewujudkan generasi Al-Quran yang cerdas, berakhlak mulia, fasih bertajwid, dan tartil irama imam Haramain.</span></li>
+                            <li class="flex gap-2.5"><span class="font-extrabold text-emerald-800">2.</span><span>Mengoptimalkan kecerdasan spiritual, emosional, dan intelektual melalui amalan zikir dan fikir.</span></li>
+                            <li class="flex gap-2.5"><span class="font-extrabold text-emerald-800">3.</span><span>Menciptakan suasana belajar yang inovatif, kreatif, nyaman, dan menyenangkan.</span></li>
+                            <li class="flex gap-2.5"><span class="font-extrabold text-emerald-800">4.</span><span>Menanamkan budaya suka memberi, menolong, peduli sosial, dan kasih sayang sesama umat.</span></li>
+                            <li class="flex gap-2.5"><span class="font-extrabold text-emerald-800">5.</span><span>Menanamkan nilai-nilai Asmaul Husna dalam kehidupan sehari-hari.</span></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Fasilitas Sekolah & Asrama Ringkas -->
+                <div class="bg-slate-50 rounded-2xl p-5 border border-slate-200">
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <h4 class="font-extrabold text-xs uppercase text-emerald-900 mb-2"><i class="fa-solid fa-school mr-1.5 text-amber-600"></i>Fasilitas Sekolah (TK - SD - SMP)</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Kantor, Gedung SD, Lapangan Upacara, Aula, Ruang Kelas, Kantin, Toilet & Tempat Wudhu, Perpustakaan, UKS, Gedung TK, Ruang Belajar TK, Kamar Mandi TK, dan Lapangan Olahraga.
+                            </p>
+                        </div>
+                        <div class="md:border-l md:border-slate-200 md:pl-4">
+                            <h4 class="font-extrabold text-xs uppercase text-emerald-900 mb-2"><i class="fa-solid fa-bed mr-1.5 text-amber-600"></i>Fasilitas Asrama (Khusus SMP)</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Gedung SMP terpisah, Kamar Tidur nyaman, Kamar Mandi bersih, Lemari Baju pribadi, dan Lemari Loker santri.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: STRUKTUR PIMPINAN & KEPALA SEKOLAH -->
+            <div id="info-panel-pimpinan" class="info-panel hidden">
+                <div class="bg-emerald-950 text-white rounded-2xl p-4 sm:p-5 text-center mb-4 border border-amber-400/50 max-w-md mx-auto">
+                    <span class="text-[10px] font-bold uppercase tracking-wider text-amber-300 block">Pembina Yayasan Nurun Nabi</span>
+                    <h3 class="text-base sm:text-lg font-extrabold mt-0.5">Tgk. Jamhuri Ramli, S.Q, M.A</h3>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-900 text-amber-300 flex items-center justify-center shrink-0 font-bold text-sm"><i class="fa-solid fa-user-tie"></i></div>
+                        <div>
+                            <h4 class="font-extrabold text-sm text-emerald-950">Ustzh. Iqlima Rachmah, SH</h4>
+                            <p class="text-xs text-amber-700 font-semibold">Kepala Tahfidz TK Tahfidz Nurun Nabi</p>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-900 text-amber-300 flex items-center justify-center shrink-0 font-bold text-sm"><i class="fa-solid fa-book-quran"></i></div>
+                        <div>
+                            <h4 class="font-extrabold text-sm text-emerald-950">Ust. Asy'ari, S.IP</h4>
+                            <p class="text-xs text-amber-700 font-semibold">Kepala Tahfidz SDTQ Nurun Nabi</p>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-900 text-amber-300 flex items-center justify-center shrink-0 font-bold text-sm"><i class="fa-solid fa-mosque"></i></div>
+                        <div>
+                            <h4 class="font-extrabold text-sm text-emerald-950">Ust. Arsyi Yallah</h4>
+                            <p class="text-xs text-amber-700 font-semibold">Kepala Tahfidz SMPTQ Nurun Nabi</p>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-800 text-white flex items-center justify-center shrink-0 font-bold text-sm"><i class="fa-solid fa-shapes"></i></div>
+                        <div>
+                            <h4 class="font-extrabold text-sm text-emerald-950">Ustzh. Rizki Putri, S.Ag</h4>
+                            <p class="text-xs text-emerald-800 font-semibold">Kepala TK Tahfidz Nurun Nabi</p>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-800 text-white flex items-center justify-center shrink-0 font-bold text-sm"><i class="fa-solid fa-school"></i></div>
+                        <div>
+                            <h4 class="font-extrabold text-sm text-emerald-950">Ust. Rahmat Riski, M.Ag, Gr</h4>
+                            <p class="text-xs text-emerald-800 font-semibold">Kepala SDTQ Nurun Nabi</p>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-800 text-white flex items-center justify-center shrink-0 font-bold text-sm"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div>
+                            <h4 class="font-extrabold text-sm text-emerald-950">Ust. Ahmad Faruqi, S.E</h4>
+                            <p class="text-xs text-emerald-800 font-semibold">Kepala SMPTQ Nurun Nabi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: 12 GALERI PRESTASI SISWA (2025 - 2026) -->
+            <div id="info-panel-prestasi" class="info-panel hidden">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs">
+                    <div class="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-amber-400 text-emerald-950 font-extrabold shrink-0">2026</span>
+                        <span class="font-bold text-slate-800">Juara 1 Menulis Cerita FLSN Tingkat Kota Banda Aceh 2026</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-amber-400 text-emerald-950 font-extrabold shrink-0">2026</span>
+                        <span class="font-bold text-slate-800">Juara 3 Bulu Tangkis Kejuaraan Kota Banda Aceh Tingkat Usia Dini 2026</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-amber-400 text-emerald-950 font-extrabold shrink-0">2026</span>
+                        <span class="font-bold text-slate-800">Juara 1 Menggambar Samurai Fest Ke-II Dayah Samudera Pasai Madani 2026</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-amber-400 text-emerald-950 font-extrabold shrink-0">2026</span>
+                        <span class="font-bold text-slate-800">Juara 3 Mewarnai Damasquss Ke-V Dayah Darul Qur'an Aceh 2026</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-amber-400 text-emerald-950 font-extrabold shrink-0">2026</span>
+                        <span class="font-bold text-slate-800">Juara 2 Tahfidz 1 Juz Putri Muqas Ke-X Dayah MUQ Pagar Air 2026</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-amber-400 text-emerald-950 font-extrabold shrink-0">2026</span>
+                        <span class="font-bold text-slate-800">Juara 1 Medali Emas Banda Taekwondo Championship Piala Walikota Banda Aceh 2026</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-emerald-900 text-amber-300 font-extrabold shrink-0">2025</span>
+                        <span class="font-bold text-slate-800">Juara 1 Medali Emas Taekwondo Students Championship 2025</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-emerald-900 text-amber-300 font-extrabold shrink-0">2025</span>
+                        <span class="font-bold text-slate-800">Juara 2 Medali Perak Taekwondo Students Championship 2025</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-emerald-900 text-amber-300 font-extrabold shrink-0">2025</span>
+                        <span class="font-bold text-slate-800">Juara 2 Tahfidz 1 Juz SMPIT Cendekia Fair 2025</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-emerald-900 text-amber-300 font-extrabold shrink-0">2025</span>
+                        <span class="font-bold text-slate-800">Juara 3 Tahfidz 2 Juz Marshall Ke-XI MTsN Model 2025</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-emerald-900 text-amber-300 font-extrabold shrink-0">2025</span>
+                        <span class="font-bold text-slate-800">Juara 1 Tahfidz 2 Juz Putra MTQ Disdikbud Kota Banda Aceh 2025</span>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2.5">
+                        <span class="px-2 py-0.5 rounded bg-emerald-900 text-amber-300 font-extrabold shrink-0">2025</span>
+                        <span class="font-bold text-slate-800">Juara Harapan 2 Tahfidz 2 Juz Putri MTQ Disdikbud Kota Banda Aceh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 4: RINCIAN INVESTASI PENDIDIKAN & SYARAT ==================== -->
+    <section id="biaya" class="py-10 sm:py-14 bg-slate-50 border-b border-slate-200/80">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-6">
+                <span class="text-amber-600 font-extrabold text-[11px] uppercase tracking-widest">Transparansi Anggaran</span>
+                <h2 class="text-xl sm:text-2xl font-extrabold text-emerald-950">Investasi Pendidikan & Syarat</h2>
+            </div>
+
+            <!-- Tab Jenjang TK / SD / SMP -->
+            <div class="grid grid-cols-3 gap-2 p-1.5 bg-emerald-950 rounded-2xl max-w-md mx-auto mb-6">
+                <button onclick="switchBiaya('tk')" id="biaya-btn-tk" class="biaya-btn py-2.5 rounded-xl text-xs sm:text-sm font-extrabold bg-amber-400 text-emerald-950 shadow transition-all">
+                    Tingkat TK
+                </button>
+                <button onclick="switchBiaya('sd')" id="biaya-btn-sd" class="biaya-btn py-2.5 rounded-xl text-xs sm:text-sm font-bold text-emerald-100 hover:text-white transition-all">
+                    Tingkat SD
+                </button>
+                <button onclick="switchBiaya('smp')" id="biaya-btn-smp" class="biaya-btn py-2.5 rounded-xl text-xs sm:text-sm font-bold text-emerald-100 hover:text-white transition-all">
+                    Tingkat SMP
+                </button>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-5 items-start">
+                <!-- Tabel Rincian Biaya -->
+                <div class="lg:col-span-7 bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-200">
+                    <!-- Panel TK -->
+                    <div id="biaya-panel-tk" class="biaya-panel">
+                        <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-100">
+                            <h3 class="font-extrabold text-base sm:text-lg text-emerald-950">Rincian Biaya Tingkat TK</h3>
+                            <span class="text-xs font-bold px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800">Daftar: Rp 150.000</span>
+                        </div>
+                        <div class="divide-y divide-slate-100 text-xs sm:text-sm">
+                            <div class="py-2.5 flex justify-between"><span class="text-slate-600">Uang Seragam</span><span class="font-bold">Rp. 850.000,-</span></div>
+                            <div class="py-2.5 flex justify-between"><span class="text-slate-600">SPP</span><span class="font-bold">Rp. 420.000,-</span></div>
+                            <div class="py-2.5 flex justify-between"><span class="text-slate-600">Peralatan Sekolah</span><span class="font-bold">Rp. 500.000,-</span></div>
+                            <div class="py-2.5 flex justify-between"><span class="text-slate-600">Infaq Pembangunan</span><span class="font-bold">Rp. 3.150.000,-</span></div>
+                        </div>
+                        <div class="mt-4 p-4 rounded-xl bg-emerald-950 text-white flex justify-between items-center">
+                            <span class="font-bold text-xs sm:text-sm text-amber-300 uppercase">Total Anggaran TK</span>
+                            <span class="text-lg sm:text-xl font-extrabold">Rp. 4.920.000,-</span>
+                        </div>
+                    </div>
+
+                    <!-- Panel SD -->
+                    <div id="biaya-panel-sd" class="biaya-panel hidden">
+                        <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-100">
+                            <h3 class="font-extrabold text-base sm:text-lg text-emerald-950">Rincian Biaya Tingkat SD</h3>
+                            <span class="text-xs font-bold px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800">Daftar: Rp 250.000</span>
+                        </div>
+                        <div class="divide-y divide-slate-100 text-xs sm:text-sm">
+                            <div class="py-2.5 flex justify-between"><span class="text-slate-600">Uang Seragam</span><span class="font-bold">Rp. 1.300.000,-</span></div>
+                            <div class="py-2.5 flex justify-between"><span class="text-slate-600">SPP</span><span class="font-bold">Rp. 640.000,-</span></div>
+                            <div class="py-2.5 flex justify-between"><span class="text-slate-600">Buku</span><span class="font-bold">Rp. 900.000,-</span></div>
+                            <div class="py-2.5 flex justify-between"><span class="text-slate-600">Program Tahfidz</span><span class="font-bold">Rp. 280.000,-</span></div>
+                            <div class="py-2.5 flex justify-between"><span class="text-slate-600">Infaq Pembangunan</span><span class="font-bold">Rp. 5.380.000,-</span></div>
+                        </div>
+                        <div class="mt-4 p-4 rounded-xl bg-emerald-950 text-white flex justify-between items-center">
+                            <span class="font-bold text-xs sm:text-sm text-amber-300 uppercase">Total Anggaran SD</span>
+                            <span class="text-lg sm:text-xl font-extrabold">Rp. 8.500.000,-</span>
+                        </div>
+                    </div>
+
+                    <!-- Panel SMP -->
+                    <div id="biaya-panel-smp" class="biaya-panel hidden">
+                        <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-100">
+                            <h3 class="font-extrabold text-base sm:text-lg text-emerald-950">Rincian Biaya Tingkat SMP</h3>
+                            <span class="text-xs font-bold px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800">Daftar: Rp 250.000</span>
+                        </div>
+                        <div class="divide-y divide-slate-100 text-xs sm:text-sm">
+                            <div class="py-2 flex justify-between"><span class="text-slate-600">Uang Seragam</span><span class="font-bold">Rp. 1.200.000,-</span></div>
+                            <div class="py-2 flex justify-between"><span class="text-slate-600">SPP</span><span class="font-bold">Rp. 570.000,-</span></div>
+                            <div class="py-2 flex justify-between"><span class="text-slate-600">Buku</span><span class="font-bold">Rp. 1.300.000,-</span></div>
+                            <div class="py-2 flex justify-between"><span class="text-slate-600">Program Tahfidz</span><span class="font-bold">Rp. 250.000,-</span></div>
+                            <div class="py-2 flex justify-between"><span class="text-slate-600">Infaq Pembangunan</span><span class="font-bold">Rp. 4.000.000,-</span></div>
+                            <div class="py-2 flex justify-between text-amber-900 bg-amber-50/70 px-2 rounded"><span>Catering (Per Bulan) *Asrama</span><span class="font-bold">Rp. 710.000,-</span></div>
+                            <div class="py-2 flex justify-between text-amber-900 bg-amber-50/70 px-2 rounded"><span>Peralatan Santri *Asrama</span><span class="font-bold">Rp. 2.000.000,-</span></div>
+                        </div>
+                        <div class="mt-4 grid grid-cols-2 gap-2.5">
+                            <div class="p-3 rounded-xl bg-emerald-950 text-white border border-amber-400">
+                                <span class="block text-[10px] font-bold text-amber-300 uppercase">Total Asrama</span>
+                                <span class="text-sm sm:text-base font-extrabold">Rp. 10.030.000,-</span>
+                            </div>
+                            <div class="p-3 rounded-xl bg-emerald-900 text-white">
+                                <span class="block text-[10px] font-bold text-emerald-200 uppercase">Total Fullday</span>
+                                <span class="text-sm sm:text-base font-extrabold">Rp. 7.320.000,-</span>
+                            </div>
+                        </div>
+                        <p class="mt-2.5 text-[11px] font-semibold text-amber-800 bg-amber-50 border border-amber-200 px-3 py-2 rounded-lg">
+                            *Program Full Day tidak ada biaya Catering dan Peralatan Santri.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Box Syarat Pendaftaran -->
+                <div class="lg:col-span-5 bg-emerald-950 text-white rounded-2xl p-5 sm:p-6 shadow-sm">
+                    <h3 class="font-extrabold text-base text-amber-300 mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-clipboard-check"></i> Syarat Pendaftaran
+                    </h3>
+                    <ul class="space-y-3 text-xs sm:text-sm text-emerald-100">
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-circle-check text-amber-400 mt-0.5"></i>
+                            <span><strong class="text-white">Biaya Pendaftaran:</strong> Rp. 150.000,- (TK) &bull; Rp. 250.000,- (SD & SMP)</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-circle-check text-amber-400 mt-0.5"></i>
+                            <span><strong class="text-white">Syarat Usia Minimal:</strong> 4 Tahun (TK) &bull; 6 Tahun (SD)</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-circle-check text-amber-400 mt-0.5"></i>
+                            <span><strong class="text-white">Fotokopi Kartu Keluarga (KK)</strong> 1 Lembar</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-circle-check text-amber-400 mt-0.5"></i>
+                            <span><strong class="text-white">Pas Foto ukuran 3x4</strong> sebanyak 2 Lembar</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 5: FORMULIR PENDAFTARAN CEPAT & KONTAK ==================== -->
+    <section id="daftar" class="py-10 sm:py-14 bg-white">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="grid lg:grid-cols-12 gap-6 items-start">
+                
+                <!-- Form Pendaftaran Ringkas -->
+                <div class="lg:col-span-7 bg-slate-50 rounded-2xl p-5 sm:p-7 border border-slate-200 shadow-sm">
+                    <span class="text-amber-600 font-extrabold text-[11px] uppercase tracking-widest">Pendaftaran Online Cepat</span>
+                    <h2 class="text-xl sm:text-2xl font-extrabold text-emerald-950 mt-0.5 mb-1">Formulir SPMB 2027/2028</h2>
+                    <p class="text-xs text-slate-500 mb-4">Data otomatis tersusun rapi untuk dikirim langsung ke WhatsApp Panitia (<strong>Ust Marjan</strong>).</p>
+
+                    <div id="form-alert" class="hidden mb-4 p-3 rounded-xl text-xs font-bold"></div>
+
+                    <form id="spmb-form" class="space-y-3.5">
+                        <div>
+                            <label for="nama_santri" class="block text-xs font-bold text-slate-700 mb-1">Nama Lengkap Calon Santri *</label>
+                            <input type="text" id="nama_santri" required placeholder="Masukkan nama lengkap anak" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm focus:border-emerald-700 focus:ring-2 focus:ring-emerald-700/20 outline-none">
+                        </div>
+
+                        <div>
+                            <label for="jenjang" class="block text-xs font-bold text-slate-700 mb-1">Pilihan Jenjang Pendidikan *</label>
+                            <select id="jenjang" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm focus:border-emerald-700 focus:ring-2 focus:ring-emerald-700/20 outline-none">
+                                <option value="">-- Pilih Jenjang --</option>
+                                <option value="TK Tahfidz (Usia Min. 4 Tahun)">TK Tahfidz (Biaya Daftar Rp 150.000)</option>
+                                <option value="SD Tahfidz / SDTQ (Usia Min. 6 Tahun)">SD Tahfidz / SDTQ (Biaya Daftar Rp 250.000)</option>
+                                <option value="SMP Tahfidz - Fullday">SMP Tahfidz - Fullday (Biaya Daftar Rp 250.000)</option>
+                                <option value="SMP Tahfidz - Asrama">SMP Tahfidz - Asrama (Biaya Daftar Rp 250.000)</option>
+                            </select>
+                        </div>
+
+                        <div class="grid sm:grid-cols-2 gap-3.5">
+                            <div>
+                                <label for="nama_wali" class="block text-xs font-bold text-slate-700 mb-1">Nama Orang Tua / Wali *</label>
+                                <input type="text" id="nama_wali" required placeholder="Nama Ayah / Ibu" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm focus:border-emerald-700 focus:ring-2 focus:ring-emerald-700/20 outline-none">
+                            </div>
+                            <div>
+                                <label for="no_wa" class="block text-xs font-bold text-slate-700 mb-1">Nomor HP / WhatsApp *</label>
+                                <input type="tel" id="no_wa" required placeholder="08xxxxxxxxxx" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white text-sm focus:border-emerald-700 focus:ring-2 focus:ring-emerald-700/20 outline-none">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="w-full bg-emerald-900 hover:bg-emerald-800 text-white font-extrabold py-3.5 px-5 rounded-xl shadow-md flex items-center justify-center gap-2 text-sm transition-all active:scale-98">
+                            <i class="fa-brands fa-whatsapp text-lg text-green-400"></i>
+                            <span>Kirim Pendaftaran via WhatsApp</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Lokasi & Kontak Sosial Media -->
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="bg-emerald-950 text-white rounded-2xl p-5 sm:p-6">
+                        <h3 class="font-extrabold text-base text-amber-300 mb-3">Lokasi Pendaftaran & Kontak</h3>
+                        <div class="space-y-3 text-xs sm:text-sm">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-location-dot text-amber-400 mt-1"></i>
+                                <div>
+                                    <strong class="block text-white">Zawiyah Tahfidz Nurun Nabi</strong>
+                                    <span class="text-emerald-200">Jl. T. Iskandar KM.2, Lambhuk, Ulee Kareng, Banda Aceh</span>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fa-brands fa-whatsapp text-green-400 mt-1 text-base"></i>
+                                <div>
+                                    <strong class="block text-white">Contact Person (Ust Marjan)</strong>
+                                    <a href="https://wa.me/6282274286622" target="_blank" rel="noopener" class="text-amber-300 font-bold hover:underline">0822 7428 6622</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 pt-4 border-t border-emerald-800">
+                            <span class="block text-[11px] font-bold uppercase tracking-wider text-emerald-300 mb-2.5">Instagram Resmi:</span>
+                            <div class="grid grid-cols-2 gap-2 text-xs">
+                                <a href="https://instagram.com/tktahfidznurunnabiaceh" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-emerald-100 hover:text-amber-300 truncate"><i class="fa-brands fa-instagram text-amber-400"></i>@tktahfidznurunnabiaceh</a>
+                                <a href="https://instagram.com/sdtqnurunnabiaceh" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-emerald-100 hover:text-amber-300 truncate"><i class="fa-brands fa-instagram text-amber-400"></i>@sdtqnurunnabiaceh</a>
+                                <a href="https://instagram.com/ltq.nurunnabi" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-emerald-100 hover:text-amber-300 truncate"><i class="fa-brands fa-instagram text-amber-400"></i>@ltq.nurunnabi</a>
+                                <a href="https://instagram.com/smptqnurunnabiaceh" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-emerald-100 hover:text-amber-300 truncate"><i class="fa-brands fa-instagram text-amber-400"></i>@smptqnurunnabiaceh</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== COMPACT FOOTER ==================== -->
+    <footer class="bg-emerald-950 text-emerald-200/80 py-6 pb-20 sm:pb-6 border-t border-emerald-800 text-center text-xs px-4">
+        <p class="font-bold text-white mb-1">Zawiyah Tahfidz Nurun Nabi Banda Aceh &bull; Yayasan Nurun Nabi Aceh</p>
+        <p>&copy; 2026/2027 SPMB Tahun Ajaran 2027/2028. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <!-- Floating WhatsApp Thumb-Friendly Button -->
+    <a href="https://wa.me/6282274286622?text=Assalamu'alaikum%20Ust%20Marjan,%20mohon%20informasi%20SPMB%20Zawiyah%20Tahfidz%20Nurun%20Nabi%202027/2028." target="_blank" rel="noopener" aria-label="Chat WhatsApp Ust Marjan" class="fixed bottom-4 right-4 z-40 bg-green-600 hover:bg-green-500 text-white px-4 py-3 rounded-full shadow-2xl flex items-center gap-2 font-extrabold text-xs sm:text-sm transition-transform active:scale-95">
+        <i class="fa-brands fa-whatsapp text-xl"></i>
+        <span>Chat Ust Marjan</span>
+    </a>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        // 1. Web Share API + Fallback Copy Link untuk Android & iOS
+        async function shareLandingPage() {
+            const shareData = {
+                title: 'SPMB TA 2027/2028 - Zawiyah Tahfidz Nurun Nabi Banda Aceh',
+                text: 'Informasi Penerimaan Murid Baru TK, SD & SMP (Fullday & Asrama) Zawiyah Tahfidz Nurun Nabi Banda Aceh TA 2027/2028.',
+                url: window.location.href
+            };
+
+            if (navigator.share) {
+                try {
+                    await navigator.share(shareData);
+                } catch (err) {
+                    // Dibatalkan pengguna
+                }
+            } else {
+                // Fallback Copy Link
+                const tempInput = document.createElement('input');
+                tempInput.value = window.location.href;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+
+                const toast = document.getElementById('share-toast');
+                toast.classList.remove('hidden');
+                setTimeout(() => toast.classList.add('hidden'), 3000);
+            }
+        }
+
+        // 2. Tab Profil, Pimpinan & Prestasi
+        function switchInfoTab(tabName) {
+            document.querySelectorAll('.info-panel').forEach(p => p.classList.add('hidden'));
+            document.querySelectorAll('.info-tab-btn').forEach(b => {
+                b.classList.remove('bg-emerald-900', 'text-white', 'shadow', 'font-extrabold');
+                b.classList.add('text-slate-600', 'font-bold');
+            });
+
+            document.getElementById('info-panel-' + tabName).classList.remove('hidden');
+            const activeBtn = document.getElementById('info-btn-' + tabName);
+            activeBtn.classList.remove('text-slate-600', 'font-bold');
+            activeBtn.classList.add('bg-emerald-900', 'text-white', 'shadow', 'font-extrabold');
+        }
+
+        // 3. Tab Investasi Pendidikan (TK / SD / SMP)
+        function switchBiaya(level) {
+            document.querySelectorAll('.biaya-panel').forEach(p => p.classList.add('hidden'));
+            document.querySelectorAll('.biaya-btn').forEach(b => {
+                b.classList.remove('bg-amber-400', 'text-emerald-950', 'shadow', 'font-extrabold');
+                b.classList.add('text-emerald-100', 'font-bold');
+            });
+
+            document.getElementById('biaya-panel-' + level).classList.remove('hidden');
+            const activeBtn = document.getElementById('biaya-btn-' + level);
+            activeBtn.classList.remove('text-emerald-100', 'font-bold');
+            activeBtn.classList.add('bg-amber-400', 'text-emerald-950', 'shadow', 'font-extrabold');
+        }
+
+        // 4. Kirim Formulir ke WhatsApp Ust Marjan (0822 7428 6622)
+        document.getElementById('spmb-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const nama = document.getElementById('nama_santri').value.trim();
+            const jenjang = document.getElementById('jenjang').value;
+            const wali = document.getElementById('nama_wali').value.trim();
+            const wa = document.getElementById('no_wa').value.trim();
+            const alertBox = document.getElementById('form-alert');
+
+            if (!nama || !jenjang || !wali || !wa) {
+                alertBox.className = 'mb-4 p-3 rounded-xl text-xs font-bold bg-red-100 text-red-800 border border-red-300';
+                alertBox.textContent = 'Mohon lengkapi semua kolom pendaftaran.';
+                alertBox.classList.remove('hidden');
+                return;
+            }
+
+            const pesan = `Assalamu'alaikum Ust Marjan,%0A%0A` +
+                `Saya ingin mendaftarkan calon santri baru *SPMB Zawiyah Tahfidz Nurun Nabi TA 2027/2028*:%0A` +
+                `• *Nama Calon Santri:* ${encodeURIComponent(nama)}%0A` +
+                `• *Jenjang:* ${encodeURIComponent(jenjang)}%0A` +
+                `• *Nama Orang Tua/Wali:* ${encodeURIComponent(wali)}%0A` +
+                `• *No. HP/WA:* ${encodeURIComponent(wa)}%0A%0A` +
+                `Mohon arahan selanjutnya untuk berkas pendaftaran. Jazakumullahu Khairan.`;
+
+            const url = `https://wa.me/6282274286622?text=${pesan}`;
+            alertBox.className = 'mb-4 p-3 rounded-xl text-xs font-bold bg-emerald-100 text-emerald-900 border border-emerald-300';
+            alertBox.innerHTML = `Data siap dikirim! Membuka WhatsApp Ust Marjan... <a href="${url}" target="_blank" rel="noopener" class="underline font-extrabold">Klik di sini jika belum terbuka</a>.`;
+            alertBox.classList.remove('hidden');
+
+            window.open(url, '_blank', 'noopener');
+        });
+    </script>
+</body>
+</html>
